@@ -1,0 +1,17 @@
+// media queries
+@mixin bp($point) {
+     @if $point == m {
+          @media only screen and (min-width: #{$bp1}) { @content; }
+     }
+     @else if $point == l {
+          @media only screen and (min-width: #{$bp2}) { @content; }
+     }
+     @else if $point == xl {
+          @media only screen and (min-width: #{$bp3}) { @content; }
+     }
+}
+
+// Sets a font size in pixels and as a rem value
+@mixin font-size($size) {
+  font-size: #{$size}px; font-size: #{$size / 10}rem;
+}

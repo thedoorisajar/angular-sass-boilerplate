@@ -15,7 +15,7 @@ Work in progress!
 
 ## Installs
 
-- NodeJS: http://nodejs.org/download/
+- Node.js: http://nodejs.org/download/
 - Bower
 ```$ npm install -g bower```
 - Karma CLI

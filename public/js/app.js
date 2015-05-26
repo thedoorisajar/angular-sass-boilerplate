@@ -1,7 +1,7 @@
 (function() {
 	'use strict';
 
-	angular.module('app', ['ngRoute', 'core'])
+	angular.module('app', ['ngRoute', 'ngTouch', 'core'])
 
 	.config(function ($routeProvider) {
 		$routeProvider

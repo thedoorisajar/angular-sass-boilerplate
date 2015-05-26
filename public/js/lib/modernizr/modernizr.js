@@ -20,7 +20,7 @@
  *
  * Authors        Faruk Ates, Paul Irish, Alex Sexton
  * Contributors   Ryan Seddon, Ben Alman
- */ 
+ */
 
 window.Modernizr = (function( window, document, undefined ) {
 

@@ -40,7 +40,6 @@ gulp.task('lint:scss', function () {
 gulp.task('js', ['clean:js','lint:js'], function() {
   	return gulp.src([
         'public/js/lib/angular/angular.js',
-        'public/js/lib/angular/angular-route.js',
         'public/js/lib/**/*.js',
         'public/js/modules/**/*.module.js',
         'public/js/modules/**/*.controller.js',
